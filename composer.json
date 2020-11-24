@@ -1,0 +1,20 @@
+{
+  "name": "feetree/smsc-ru",
+  "description": "Package for work with smsc.ru API",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Alexey Filippov",
+      "email": "sobsgm@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.4",
+    "illuminate/support": "^8.0"
+  },
+  "config": {
+    "optimize-autoloader": true,
+    "preferred-install": "dist",
+    "sort-packages": true
+  }
+}
