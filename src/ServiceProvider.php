@@ -1,4 +1,5 @@
 <?php
+
 namespace SMSC;
 
 class ServiceProvider extends \Illuminate\Support\ServiceProvider
@@ -10,5 +11,4 @@ class ServiceProvider extends \Illuminate\Support\ServiceProvider
 
         $this->app->alias(SMSC::class, 'smsc');
     }
-
 }
